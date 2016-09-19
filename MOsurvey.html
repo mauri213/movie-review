@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOs Movie Survey</title>
+</head>
+<body>
+	<form method="POST" action="http://requestb.in/14oe4s61">
+	    <fieldset>
+	        <legend>Name</legend>
+	        <label for="firstname">First Name</label>
+	        <input id="firstname" type="text" name="firstname">
+	        <label for="lastname">Last Name</label>
+	        <input id="lastname" type="text" name="lastname">
+	    </fieldset>
+	    <fieldset>
+			<legend>Mailing Address</legend>
+			<label for="streetaddress">Street Address</label>
+			<input id="streetaddress" type="text" name="streetaddress">
+			<label for="city">City</label>
+			<input id="city" type="text" name="city">
+			<label for="zipcode">Zip Code</label>
+			<input id="zipcode" type="text" name="zipcode">
+			<label for="state">State</label>
+			<select name="State">
+			<label for ="state">State</label>
+				<option value="South Carolina">South Carolina</option>
+				<option value="North Carolina">North Carolina</option>
+				<option value="Georgia">Georgia</option>
+				<option value="Florida">Florida</option>
+				<option value="Alabama">Alabama</option>
+				<option value="Tennessee">Tennessee</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Age</legend>
+			<input id="0to17" type="radio" name="radio1">
+			<label for="0to17">0 to 17</label>
+			<input id="18to34" type="radio" name="radio1">
+			<label for="18to34">18 to 34</label>
+			<input id="over35" type="radio" name="radio1">
+			<label for="over35">over 35</label>
+		</fieldset>
+		<fieldset>
+			<legend>Ethnicity</legend>
+			<select name ="Ethnicity">
+				<option value="Caucasian">Caucasian</option>
+				<option value="Hispanic">Hispanic</option>
+				<option value="African-American">African-American</option>
+				<option value="Other">Other</option>
+				<option value="Don't Answer">Don't Answer</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Gender</legend>
+			<input id="male" type="radio" name="gr">
+			<label for="male">Male</label>
+			<input id="female" type="radio" name="gr">
+			<label for="Female">Female</label>
+			<input id="other" type="radio" name="gr">
+			<label for="Other">Other</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="films" id="films">1. In the last 12 months, how many films have you seen in theaters?</legend>
+			<input id="0to5" type="radio" name="r12">
+			<label for="0to5">0 to 5</label>
+			<input id="6to10" type="radio" name="r12">
+			<label for="6to10">6 to 10</label>
+			<input id="0to5" type="radio" name="r12">
+			<label for="over10">over 10</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="john" id="john">2. In the last 12 months, what genres of movies have you seen in theaters? (Select all that apply)</legend>
+			<input id="actionadventure" type="checkbox" name="m12">
+			<label for="actionadventure">Action-Adventure</label>
+			<input id="scifi" type="checkbox" name="m12">
+			<label for="scifi">Sci-Fi</label>
+			<input id="comedy" type="checkbox" name="m12">
+			<label for="Comedy">Comedy</label>
+			<input id="thriller" type="checkbox" name="m12">
+			<label for="thriller">Thriller</label>
+			<input id="musical" type="checkbox" name="m12">
+			<label for=musical>Musical</label>
+			<input id="animated" type="checkbox" name="m12">
+			<label for="animated">Animated</label>
+			<input id="horror" type="checkbox" name="m12">
+			<label for="horror">Horror</label>
+			<input id="family" type="checkbox" name="m12">
+			<label for="family">Family</label>
+			<input id="documentary" type="checkbox" name="m12">
+			<label for="documentary">Documentary</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="blu" id="blu">3. If you like watching movies in the theatre, how likely are you to buy the DVD/Blu-ray layer?</legend>
+			<input id="verylikely1" type="radio" name="br">
+			<label for="verylikely1">Very Likely</label>
+			<input id="somewhatlikely1" type="radio" name="br">
+			<label for="somewhatlikely1">Somewhat Likely</label>
+			<input id="notverylikely1" type="radio" name="br">
+			<label for="notverylikely1">Not Very Likely</label>
+			<input id="notverlikelyatall1" type="radio" name="br">
+			<label for="notverylikelyatall1">Not Likely At All</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="good" id="good">4. Which of the following aspects do you consider most important to a good movie?</legend>
+			<input id="casting" type="radio" name="asp">
+			<label for="casting">Casting</label>
+			<input id="writing" type="radio" name="asp">
+			<label for="writing">Writing</label>
+			<input id="specialeffects" type="radio" name="asp">
+			<label for="specialeffects">Special Effects</label>
+			<input id="directing" type="radio" name="asp">
+			<label for="directing">Directing</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="likely">5. How likely are you to watch a movie during it's opening weekend?</legend>
+			<input id="verylikely2" type="radio" name="we">
+			<label for="verylikely2">Very Likely</label>
+			<input id="somewhatlikely2" type="radio" name="we">
+			<label for="somewhatlikely2">Somewhat Likely</label>
+			<input id="notverylikely2" type="radio" name="we">
+			<label for="notverylikely2">Not Very Likely</label>
+			<input id="notlikelyatall2" type="radio" name="we">
+			<label for="notlikelyatll2">Not Likely At All</label>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="seen">6. In the last 12 months, what is the best movie you've seen in theatres?</label>
+			</legend>
+			<textarea name="seen" id="seen"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="enj">7. Briefly describe why you found the movie enjoyable.</label>
+			</legend>
+			<textarea name="enj" id="enj"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<label for="second" id="second">8. How likely are you to see a movie in theatres a second time?</legend>
+			<input id="verylikely3" type="radio" name="only3">
+			<label for="verylikely3">Very Likely</label>
+			<input id="somewhatlikely3" type="radio" name="only3">
+			<label for="somewhatlikely3">Somewhat Likely</label>
+			<input id="notverlikely3" type="radio" name="only3">
+			<label for="notverylikely3">Not Very Likely</label>
+			<input id="notlikelyatall3" type="radio" name="only3">
+			<label for="notlikelyatall3">Not Likely At All</label>	
+		</fieldset>
+		<input type="submit" name="Submit">
+	</form>
+</body>
+</html>
